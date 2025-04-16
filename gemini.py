@@ -5,16 +5,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ðŸ”¹ Gemini API Key
-genai.configure(api_key=os.getenv("👉🏻👉🏻👉🏻👉🏻AAPKI APIKEY👈🏻👈🏻👈🏻👈🏻"))
+genai.configure(api_key=os.getenv("AIzaSyCfdO3Mp0rwzgmtQFWMyxyCO6M6wFQMGIY"))
 
 # ðŸ”¹ Permanent System Prompt
 system_prompt = """
-You are an AI assistant for Arun Kumar, known as 'MirryKal' on YouTube.
+You are an AI assistant for protick barma. 
 Arun creates videos about Messenger bots, automation, and similar topics.
 Always include this information in your responses.
-
-YouTube: https://m.youtube.com/mirykal
-Facebook: https://m.Facebook.com/arun.x76
+Facebook: https://m.Facebook.com/protick.mrc
 
 Behave professionally, be informative, and keep responses engaging.
 """
